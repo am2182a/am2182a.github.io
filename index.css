@@ -1,0 +1,159 @@
+body {
+    background-color: #e4e4e4;
+}
+
+header {
+    text-align: center;
+    color: #C0B283;
+    margin: 10% 2% 2% 2%;
+    border-style: dashed;
+    
+}
+
+
+
+p {
+    font-family:Raleway;
+}
+
+h1 {
+    font-family: Lobster;
+}
+
+h3 {
+    font-family: Raleway;
+}
+
+h4 {
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-align: center;
+    color: #373737;
+    font-family: Raleway;
+}
+
+a {
+    text-decoration: none;
+    color: #373737;
+    
+}
+
+a:hover {
+    background-color: #dcd0c0;
+    text-decoration: underline;
+}
+
+
+nav ul {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #dcd0c0;
+
+}
+
+nav li {
+    float: left;
+    font-family: Raleway;
+    
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background-color: #C0B283;
+}
+.grid-container {
+    width: 100%;
+}
+
+.grid-container *{
+    box-sizing: border-box;
+    
+}
+
+.row:before, 
+.row:after {
+        content:"";
+        display: table ;
+        clear:both;
+    }
+
+
+[class*='col-'] {
+    float: left;
+    min-height:1px;
+    padding: 12px;
+    width: 46%;
+    margin:2%;
+    
+}
+
+#valen {
+    
+    
+    border-style: dashed;
+    border-color: #c0b283;
+    margin: 2%;
+    color: #373737;
+    padding-bottom: 15px;
+}
+
+
+#popular {
+    
+    border-style: dashed;
+    border-color: #c0b283;
+  
+    
+}
+
+#popular ul {
+    list-style: square outside url("images/fork.png");
+    font-family: Raleway ;    
+}
+
+#brownie {
+   
+    border-style: dashed;
+    border-color: #c0b283;
+    height: 327px;
+    
+}
+
+#aboutdiv {
+    border-style: dashed;
+    border-color: #c0b283;
+}
+
+#bpic {
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+#mepic {
+    height: 237px;
+    display: block;
+    margin: 0 auto;
+}
+
+#mediv {
+    border-style: dashed;
+    border-color: #c0b283;
+}
+
+#contact p {
+    display: inline-block;
+    padding: 10px;
+    float: right;
+}
+
+#valenphotos {
+    text-align: center;
+}
